@@ -1,0 +1,31 @@
+POST http://localhost:5000/Delivers
+Content-Type: application/json
+
+
+{
+    "Delivery_name":"ahmad bn ahmad",
+    "Age":"16",
+    "Phone_num":"7771565",
+    "adresses_work":"sanaa",
+    "Count_num":"321",
+    "card_type":"sanaa , yemen",
+    "card_num":"21000",
+    "imag_card":"12020",
+    "note":".,;lk;/",
+    "Delivery_state":false
+}
+###
+GET http://localhost:5000/Delivers
+
+###
+GET http://localhost:5000/Delivers/5ef10cb278936f367b3eb78a
+###
+PATCH http://localhost:5000/Delivers/id
+###
+DELETE http://localhost:5000/Delivers/5ef10f331179b43e5235b917
+
+###
+DELETE http://localhost:5000/test?name=abdullah&age=25
+
+###
+DELETE http://localhost:5000/test/123123
