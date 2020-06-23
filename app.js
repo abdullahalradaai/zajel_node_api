@@ -29,6 +29,6 @@ const DeliveryRoute=require('./Routes/delivery.rout');
 app.use('/Delivers',DeliveryRoute);
 
 
-app.listen(5000,()=>{
-    console.log('success');
-});
+//app.listen(5000,()=>{
+   // console.log('success');
+//});
